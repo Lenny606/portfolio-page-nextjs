@@ -2,15 +2,27 @@
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
+import {useFrame} from "@react-three/fiber";
 
 export default function Model(props) {
     const { nodes, materials } = useGLTF('/models/wizard-transformed.glb')
+
+    const modelRef = useRef();
+
+    useFrame((state,delta,xrFrame) => {
+        // config movement on y axis, uhel pozice se meni v case (elapsed time)
+        modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime) * 0.15
+    })
+
+
     return (
         <group {...props} dispose={null}
-               //*set positioning
+               //*set positioning, use threejs editor
                position={[0,-1.5,0]}
                scale={[0.06,0.06,0.06]}
                rotation={[0.25,0,0]}
+
+               ref={modelRef}
         >
             <mesh
                 castShadow
