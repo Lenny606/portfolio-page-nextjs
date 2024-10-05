@@ -3,6 +3,7 @@
 import {Canvas} from "@react-three/fiber";
 import {Suspense} from "react";
 import clsx from "clsx";
+import {Environment} from "@react-three/drei";
 
 const RenderModel = ({children, className}) => {
     return (
@@ -12,6 +13,7 @@ const RenderModel = ({children, className}) => {
             <Suspense fallback={null}>
                 {children}
             </Suspense>
+            <Environment preset={'dawn'} ></Environment>
         </Canvas>
     )
 }

@@ -10,6 +10,7 @@ export default function Model(props) {
                //*set positioning
                position={[0,-1.5,0]}
                scale={[0.06,0.06,0.06]}
+               rotation={[0.25,0,0]}
         >
             <mesh
                 castShadow
