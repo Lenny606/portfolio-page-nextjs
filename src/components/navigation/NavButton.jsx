@@ -51,10 +51,10 @@ const NavButton = ({btn, x, y}) => {
              }}>
             <Link href={btn.link}
                   target={btn.newTab ? '_blank' : '_self'}
-                  className={'text-foreground rounded-full flex items-center justify-center'}
+                  className={'text-foreground rounded-full flex items-center justify-center bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-inset-sm'}
                   aria-label={btn.label}
                   name={btn.label}>
-                <span className={'w-14 h-14 p-4 relative'}>
+                <span className={'w-14 h-14 p-4 relative animate-spin-slow-reverse'}>
                     {getIcon(btn.icon)}
                 </span>
                 {/*{btn.label}*/}
