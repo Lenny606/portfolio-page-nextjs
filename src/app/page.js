@@ -2,6 +2,7 @@ import Image from "next/image";
 import bg from "../../public/background/home-background.png"
 import RenderModel from "@/components/RenderModel";
 import Wizard from "@/components/model/Wizard";
+import Navigation from "@/components/navigation/navigation";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
 
     {/*    navigation + 3d model (from Skatchfab  */}
         <div className={'w-full h-screen'}>
+          <Navigation />
           <RenderModel>
             <Wizard></Wizard>
           </RenderModel>
