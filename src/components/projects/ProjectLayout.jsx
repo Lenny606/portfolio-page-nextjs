@@ -1,8 +1,12 @@
+import Link from "next/link";
+
 const ProjectLayout = ({name, description, date, link}) => {
 
 
     return (
-        <div className={'flex items-center justify-between w-full relative rounded-lg overflow-hidden p-6 bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm'} >
+        <Link
+            href={link}
+            className={'flex items-center justify-between w-full relative rounded-lg overflow-hidden p-6 bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm'} >
 
             <div className={'flex items-center justify-center space-x-2'}>
                 <h2 className={'text-foreground'}>
@@ -16,7 +20,7 @@ const ProjectLayout = ({name, description, date, link}) => {
             <p className={'text-foreground'}>
                 {new Date(date).toDateString()}
             </p>
-        </div>
+        </Link>
     )
 }
 
