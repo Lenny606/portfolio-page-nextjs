@@ -6,6 +6,7 @@ const ProjectLayout = ({name, description, date, link}) => {
     return (
         <Link
             href={link}
+            target={'_blank'}
             className={'flex items-center justify-between w-full relative rounded-lg overflow-hidden p-6 bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm'} >
 
             <div className={'flex items-center justify-center space-x-2'}>
