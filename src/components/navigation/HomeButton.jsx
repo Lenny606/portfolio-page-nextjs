@@ -7,7 +7,7 @@ const HomeButton = () => {
     return (
         <Link href={'/'}
               //*TODO create custom-bg style in config
-              className={'text-foreground rounded-full flex items-center justify-center bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-inset-sm fixed top-4 left-4 w-fit self-start'}
+              className={'text-foreground rounded-full flex items-center justify-center bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-inset-sm fixed top-4 left-4 w-fit self-start -z-50'}
               aria-label={'home'}
               name={'home'}>
                 <span
