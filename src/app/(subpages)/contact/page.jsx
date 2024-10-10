@@ -15,7 +15,7 @@ const Contact = () => {
                     </h1>
                     {/*TODO change text*/}
                     <p className={'text-center font-light'}>
-                        Im always here to help you. Feel free to reach out by filling out the form below.'
+                        Im always here to help you. Feel free to reach out by filling out the form below.
                     </p>
                     <Form />
                 </div>
