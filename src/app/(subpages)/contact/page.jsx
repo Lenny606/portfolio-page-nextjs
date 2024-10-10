@@ -1,5 +1,6 @@
 import bg from "../../../../public/background/contact-background.png"
 import Image from "next/image";
+import Form from "@/components/contact/Form";
 
 const Contact = () => {
     return (
@@ -14,8 +15,9 @@ const Contact = () => {
                     </h1>
                     {/*TODO change text*/}
                     <p className={'text-center font-light'}>
-                        I'm always here to help you. Feel free to reach out by filling out the form below.'
+                        Im always here to help you. Feel free to reach out by filling out the form below.'
                     </p>
+                    <Form />
                 </div>
             </article>
         </>
