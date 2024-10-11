@@ -10,7 +10,6 @@ export default function App() {
 
     const sendEmail = (params) => {
         // e.preventDefault();
-
         const toastId = toast.loading("Sending message...")
 
         emailjs
