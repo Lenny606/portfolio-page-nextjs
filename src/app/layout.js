@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={clsx(inter.variable, "bg-background text-foreground font-inter")}>{children}
       <FireFliesBackground />
       <SoundButton></SoundButton>
+      <div id={'modal'}></div>
       </body>
     </html>
   );
