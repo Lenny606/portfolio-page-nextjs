@@ -5,8 +5,8 @@ import Form from "@/components/contact/Form";
 const Contact = () => {
     return (
         <>
-            <Image src={bg} alt={'background-image'} fill
-                   className={'-z-50 w-full h-screen object-cover object-center opacity-25'}/>
+            <Image src={bg} alt={'background-image'}
+                   className={'-z-50 fixed top-0 left-0 w-full object-cover object-center opacity-25'}/>
 
             <article className={'flex flex-col items-center justify-center space-y-8 relative w-full'}>
                 <div className={'flex flex-col items-center justify-center space-y-6 w-3/4'}>

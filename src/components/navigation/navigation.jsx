@@ -28,7 +28,7 @@ const Navigation = () => {
                         return screenSize && screenSize >= 480 ?
                             (
                                 <div
-                                    className={'w-max flex items-center justify-center relative animate-spin-slow group'}>
+                                    className={'w-max flex items-center justify-center relative animate-spin-slow group hover:pause'}>
                                     {
                                         BtnList.map((btn, index) => {
 
