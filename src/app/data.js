@@ -38,6 +38,13 @@ export const projectsData = [
     description: "Check the current weather conditions for any city",
     date: "2024-09-10",
     link: "https://github.com/Lenny606/weather-api",
+  },
+  {
+    id: 4,
+    name: "Tailwind Product Card",
+    description: "Practice for tailwind classes",
+    date: "2024-10-11",
+    link: "https://github.com/Lenny606/tailwind-product-card",
   }
 ];
 

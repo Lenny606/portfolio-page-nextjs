@@ -25,7 +25,6 @@ const Navigation = () => {
             <ResponsiveComponent>
                 {
                     ({screenSize}) => {
-
                         return screenSize && screenSize >= 480 ?
                             (
                                 <div
@@ -54,13 +53,13 @@ const Navigation = () => {
                                             })
                                         }
                                     </div>
-
                                     <div
                                         className={'w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 items-end xs:items-center justify-center relative group'}>
                                         {
                                             BtnList.slice(BtnList.length / 2, BtnList.length).map((btn, index) => {
 
-                                                return <NavButton key={index} btn={btn} x={0} y={0} labelDirection={'left'}/>
+                                                return <NavButton key={index} btn={btn} x={0} y={0}
+                                                                  labelDirection={'left'}/>
 
                                             })
                                         }
@@ -68,7 +67,6 @@ const Navigation = () => {
                                 </>
                             )
                     }
-
                 }
             </ResponsiveComponent>
         </div>
