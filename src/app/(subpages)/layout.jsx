@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import clsx from "clsx";
 import HomeButton from "@/components/navigation/HomeButton";
+import SoundButton from "@/components/navigation/SoundButton";
 
 export default function SubPagesLayout({ children }) {
     return (
