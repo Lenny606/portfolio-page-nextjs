@@ -1,11 +1,19 @@
+"use client"
 import Link from "next/link";
 import {HomeIcon} from "lucide-react";
+import {motion} from "framer-motion";
 
 const HomeButton = () => {
 
 
+    const HomeBtnLink = motion(Link)
     return (
-        <Link href={'/'}
+        <HomeBtnLink href={'/'}
+                     initial={{scale:0}}
+                     animate={{scale:1}}
+                     transition={{delay:1}}
+
+
               //*TODO create custom-bg style in config
               className={'text-foreground rounded-full flex items-center justify-center bg-background/20 border border-accent/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-inset-sm fixed top-4 left-4 w-fit self-start -z-60'}
               aria-label={'home'}
@@ -23,7 +31,7 @@ const HomeButton = () => {
                 </span>
 
 
-        </Link>
+        </HomeBtnLink>
     )
 }
 
