@@ -5,7 +5,7 @@ import Form from "@/components/contact/Form";
 const Contact = () => {
     return (
         <>
-            <Image src={bg} alt={'background-image'}
+            <Image priority sizes={'100vw'} src={bg} alt={'background-image'}
                    className={'-z-50 fixed top-0 left-0 w-full object-cover object-center opacity-25'}/>
 
             <article className={'flex flex-col items-center justify-center space-y-8 relative py-8 sm:py-0 w-full'}>

@@ -1,13 +1,19 @@
 import bg from "../../../../public/background/about-background.png"
 import Image from "next/image";
 import RenderModel from "@/components/RenderModel";
-import Hat from "@/components/model/Hat";
+// import Hat from "@/components/model/Hat";
 import AboutDetails from "@/components/about/AboutDetails";
+import dynamic from "next/dynamic";
 
+const Hat = dynamic(() => import("@/components/model/Hat"),
+    {
+        ssr: false
+    }
+)
 const Page = () => {
     return (
         <>
-            <Image src={bg} alt={'background-image'}
+            <Image  priority sizes={'100vw'} src={bg} alt={'background-image'}
                    className={'-z-50 fixed top-0 left-0 w-full object-cover object-center opacity-25'}/>
 
             <div className={'w-full h-3/5 xs:h-3/4 sm:h-screen absolute top-1/2 -translate-y-1/2 left-0'}>
