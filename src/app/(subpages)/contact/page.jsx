@@ -1,4 +1,4 @@
-import bg from "../../../../public/background/contact-background.png"
+import bg from "../../../../public/background/contact-bg.png"
 import Image from "next/image";
 import Form from "@/components/contact/Form";
 

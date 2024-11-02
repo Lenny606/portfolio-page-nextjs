@@ -1,4 +1,4 @@
-import bg from "../../../../public/background/projects-background.png"
+import bg from "../../../../public/background/project-bg.png"
 import Image from "next/image";
 import ProjectList from "@/components/projects/ProjectList";
 import {projectsData} from "@/app/data";

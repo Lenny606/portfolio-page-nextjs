@@ -1,4 +1,4 @@
-import bg from "../../../../public/background/about-background.png"
+import bg from "../../../../public/background/about-bg.png"
 import Image from "next/image";
 import RenderModel from "@/components/RenderModel";
 // import Hat from "@/components/model/Hat";

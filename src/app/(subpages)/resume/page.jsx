@@ -1,6 +1,6 @@
 "use client"
 
-import bg from "../../../../public/background/about-background.png"
+import bg from "../../../../public/background/resume-background.png"
 import Image from "next/image";
 import RenderModel from "@/components/RenderModel";
 import {motion} from "framer-motion";
