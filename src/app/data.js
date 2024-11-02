@@ -24,6 +24,7 @@ export const projectsData = [
     description: "Mern application - e-commerce",
     date: "2024-06-20",
     link: "https://github.com/Lenny606/mern-stack-app",
+    appUrl: "https://mern-stack-app-sjj5.onrender.com/"
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ export const projectsData = [
     description: "Laravel application - e-commerce",
     date: "2024-06-20",
     link: "https://github.com/Lenny606/laravel-app",
+    appUrl: null
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ export const projectsData = [
     description: "Check the current weather conditions for any city",
     date: "2024-09-10",
     link: "https://github.com/Lenny606/weather-api",
+    appUrl: null
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ export const projectsData = [
     description: "Practice for tailwind classes",
     date: "2024-10-11",
     link: "https://github.com/Lenny606/tailwind-product-card",
+    appUrl: null
   },
   {
     id: 5,
@@ -52,6 +56,7 @@ export const projectsData = [
     description: "Practice for node, react + packages, tailwind",
     date: "2024-11-02",
     link: "https://github.com/Lenny606/bookshop-mern-app",
+    appUrl: "https://bookshop-mern-frontend.vercel.app"
   }
 ];
 
