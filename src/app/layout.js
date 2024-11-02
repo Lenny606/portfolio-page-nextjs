@@ -29,7 +29,7 @@ export const metadata = {
         type: "website",
     },
     icons: {
-        icon: "/public/favicon.ico"
+        icon: "/fav.ico"
     },
     keywords: [
         "portfolio",
