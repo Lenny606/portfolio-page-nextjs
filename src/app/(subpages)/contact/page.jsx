@@ -13,9 +13,9 @@ const Contact = () => {
                     <h1 className={'text-accent font-semibold text-center text-4xl capitalize'}>
                         Contact Me
                     </h1>
-                    {/*TODO change text*/}
                     <p className={'text-center font-light text-sm sm:text-base'}>
-                        Im always here to help you. Feel free to reach out by filling out the form below.
+                        Let’s Connect!
+                        Whether you have a question, an exciting project, I’d love to hear from you! I’m always open to discussing new ideas, potential collaborations, or sharing insights on web development.
                     </p>
                     <Form />
                 </div>

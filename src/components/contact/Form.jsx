@@ -124,6 +124,7 @@ export default function App() {
                 <motion.textarea
                     variants={item}
                     className={'w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg'}
+                    rows={5}
                     placeholder="Message" {...register("message", {
                     required: 'This field is required',
                     minLength: {
@@ -144,7 +145,7 @@ export default function App() {
                 <motion.input
                     variants={item}
                     type="submit"
-                    value={'Submit'}
+                    value={'Send'}
                     className={'px-10 py-4 rounded-md shadow-lg bg-background border border-accent/30 border-solid hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 cursor-pointer capitalize'}
                 />
             </motion.form>

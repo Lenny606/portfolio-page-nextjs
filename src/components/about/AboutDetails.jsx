@@ -17,11 +17,7 @@ const AboutDetails = () => {
                         Info
                     </h2>
                     <p className={'font-light text-xs sm:text-sm md:text-base'}>
-                        Lorem ipsum dolor sit amet, consectetur adip nonum soc tempor invidue non proident
-                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.
+                        I’m a fullstack developer with a passion for building efficient, scalable applications that solve real-world problems. With experience in PHP, Nette, Symfony, JavaScript, Node, React, Next, I specialize in creating robust backend solutions and seamless integrations. I work with a focus on performance and functionality, ensuring that every project I contribute to is built to last.
                     </p>
                 </ItemsLayout>
                 <ItemsLayout className={'col-span-full xs:col-span-6 lg:col-span-4 text-accent'}>
@@ -31,7 +27,7 @@ const AboutDetails = () => {
                 </ItemsLayout>
                 <ItemsLayout className={'col-span-full xs:col-span-6 lg:col-span-4 text-accent'}>
                     <p className={'font-semibold w-full text-left text-2xl sm:text-5xl'}>
-                        2+ <sub className={'font-semibold text-base'}>clients</sub>
+                        XX <sub className={'font-semibold text-base'}>clients</sub>
                     </p>
                 </ItemsLayout>
                 {/*Github stats*/}
