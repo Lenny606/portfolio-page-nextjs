@@ -45,6 +45,13 @@ export const projectsData = [
     description: "Practice for tailwind classes",
     date: "2024-10-11",
     link: "https://github.com/Lenny606/tailwind-product-card",
+  },
+  {
+    id: 5,
+    name: "Bookshop Mern App",
+    description: "Practice for node, react + packages, tailwind",
+    date: "2024-11-02",
+    link: "https://github.com/Lenny606/bookshop-mern-app",
   }
 ];
 
@@ -55,13 +62,13 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/Lenny606",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/tomaskravcik/",
     icon: "linkedin",
     newTab: true,
   },
@@ -73,7 +80,7 @@ export const BtnList = [
   // },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "",
     icon: "resume",
     newTab: true,
   },
