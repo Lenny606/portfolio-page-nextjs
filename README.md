@@ -72,6 +72,14 @@ If you want to learn how to create it please follow below tutorial👇: <br />
 - Emails using [Emailjs](https://www.emailjs.com/) <br />
 - Convert 3d models to JSX using [Gltf JSX](https://github.com/pmndrs/gltfjsx)
 
+#### How to create 3D model
+
+- download from Skatch3D
+- transform using cli on .bin => npm gltfjsx scene.gltf --transform 
+- copy transformed .glb file to public folder
+- upload .glb file to https://gltf.pmnd.rs/
+- use code as Model Component in project
+
 #### Audio 
 
 - Music by <a href="https://pixabay.com/users/shidenbeatsmusic-25676252/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Shiden Beats Music</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Pixabay</a>
