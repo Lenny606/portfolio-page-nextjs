@@ -17,8 +17,6 @@ const Tornado = dynamic(() => import("@/components/model/Tornado"),
     }
 )
 export default function Home() {
-    const showRender = process.env.NEXT_PUBLIC_SHOW_3D_RENDER
-    console.log(showRender)
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
