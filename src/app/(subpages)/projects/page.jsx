@@ -11,6 +11,11 @@ const Wizard = dynamic(() => import("@/components/model/Wizard"),
         ssr: false
     }
 )
+const Tornado = dynamic(() => import("@/components/model/Tornado"),
+    {
+        ssr: false
+    }
+)
 const Page = () => {
 
 
@@ -23,7 +28,7 @@ const Page = () => {
             {/*<div className={'flex items-center justify-center fixed top-16 -translate-x-1/2 lg:translate-x-0 -z-10 lg:top-20 left-1/2 lg:-left-24 h-screen'}> */}
             {/*TODO CHANGE*/}
             <RenderModel>
-                <Wizard></Wizard>
+                <Tornado></Tornado>
             </RenderModel>
             {/*</div>*/}
         </>
