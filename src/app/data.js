@@ -57,6 +57,14 @@ export const projectsData = [
     date: "2024-11-02",
     link: "https://github.com/Lenny606/bookshop-mern-app",
     appUrl: "https://bookshop-mern-frontend.vercel.app"
+  },
+  {
+    id: 6,
+    name: "Finance App Nextjs",
+    description: "Practice for nextjs, react + packages, tailwind",
+    date: "2024-11-04 - ongoing...",
+    link: "https://github.com/Lenny606/bankapp-nextjs",
+    appUrl: null
   }
 ];
 
