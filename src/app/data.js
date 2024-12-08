@@ -61,10 +61,26 @@ export const projectsData = [
   {
     id: 6,
     name: "Finance App Nextjs",
-    description: "Practice for nextjs, react + packages, tailwind",
-    date: "2024-11-04 - ongoing...",
+    description: "Practice for nextjs, react + packages, tailwind... still ongoing",
+    date: "2024-11-04",
     link: "https://github.com/Lenny606/bankapp-nextjs",
     appUrl: null
+  },
+  {
+    id: 7,
+    name: "NodeJS App",
+    description: "Practice project for NodeJS BE, pug template ... still ongoing",
+    date: "2024-12-08",
+    link: "https://github.com/Lenny606/natours-nodejs",
+    appUrl: "https://natours-nodejs-nsfy.onrender.com"
+  },
+  {
+    id: 8,
+    name: "NodeJS + TS App",
+    description: "Practice project for NodeJS BE + TypeScript ... still ongoing",
+    date: "2024-12-08",
+    link: "https://github.com/Lenny606/node-ts-setup-project",
+    appUrl: "https://node-ts-setup-project.onrender.com"
   }
 ];
 
