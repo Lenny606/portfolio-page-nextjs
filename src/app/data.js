@@ -60,11 +60,11 @@ export const projectsData = [
   },
   {
     id: 6,
-    name: "Finance App Nextjs",
-    description: "Practice for nextjs, react + packages, tailwind... still ongoing",
-    date: "2024-11-04",
+    name: "Finance App NextJS",
+    description: "Practice project for NextJS, React + ShadCN components, Appwrite BE as a service, Plaid + Dwolla API, Sentry",
+    date: "2024-12-22",
     link: "https://github.com/Lenny606/bankapp-nextjs",
-    appUrl: null
+    appUrl: "https://bankapp-nextjs-gabimw5bn-tks-projects-47ea8225.vercel.app"
   },
   {
     id: 7,
