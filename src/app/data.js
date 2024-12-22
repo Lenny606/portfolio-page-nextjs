@@ -81,6 +81,14 @@ export const projectsData = [
     date: "2024-12-08",
     link: "https://github.com/Lenny606/node-ts-setup-project",
     appUrl: "https://node-ts-setup-project.onrender.com"
+  },
+  {
+    id: 9 ,
+    name: "React Native App",
+    description: "First project for mobile app ...",
+    date: "2024-12-08",
+    link: null,
+    appUrl: null
   }
 ];
 
