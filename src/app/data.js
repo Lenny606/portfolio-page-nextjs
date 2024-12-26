@@ -85,8 +85,8 @@ export const projectsData = [
   {
     id: 9 ,
     name: "React Native App",
-    description: "First project for mobile app ... ongoing",
-    date: "2024-12-08",
+    description: "First project for mobile app",
+    date: "2024-12-26",
     link: "https://github.com/Lenny606/react-native-app",
     appUrl: null
   }
