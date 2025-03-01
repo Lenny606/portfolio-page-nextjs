@@ -89,7 +89,16 @@ export const projectsData = [
     date: "2024-12-26",
     link: "https://github.com/Lenny606/react-native-app",
     appUrl: null
+  },
+  {
+    id: 10 ,
+    name: "Tanstack App",
+    description: "Generic SPA in 30 min using create-tsrouter-app and Cursor IDE",
+    date: "2024-12-26",
+    link: "https://github.com/Lenny606/tanstack-router-app",
+    appUrl: "https://tanstack-router-app.onrender.com"
   }
+
 ];
 
 export const BtnList = [
